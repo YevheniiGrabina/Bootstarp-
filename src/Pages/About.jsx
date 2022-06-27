@@ -8,7 +8,7 @@ export default class About extends Component {
       <Container>
         <Tab.Container id="ledt-tabs-example" defaultActiveKey= "first" >
           <Row>
-            <Col sm={3}>
+            <Col sm={4}>
               {/* Колонка */}
               <Nav variant="pills" className="flex-column mt-2">
                 <Nav.Item>
@@ -26,26 +26,27 @@ export default class About extends Component {
               </Nav>
             </Col>
             </Row>
-            <Col sm={9}>
+            <Col sm={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <img src="https://klike.net/uploads/posts/2021-01/1611131113_2.jpg"/>
+                <img src="https://klike.net/uploads/posts/2021-01/1611131113_2.jpg"
+                alt='Process'/>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sint aperiam esse minus dolor eligendi vel numquam sit incidunt soluta, cumque laborum itaque cum harum obcaecati est illum explicabo beatae.</p>
                 </Tab.Pane>
                    <Tab.Pane eventKey="second">
                   <img src="https://i.pinimg.com/736x/64/0c/73/640c7375066adda3f36ac147fca89f75.jpg"
-                 />
+                alt='about' />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sint aperiam esse minus dolor eligendi vel numquam sit incidunt soluta, cumque laborum itaque cum harum obcaecati est illum explicabo beatae.</p>
 
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <img src="https://i.pinimg.com/736x/64/0c/73/640c7375066adda3f36ac147fca89f75.jpg"
-                 />
+                 alt='gifts' />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sint aperiam esse minus dolor eligendi vel numquam sit incidunt soluta, cumque laborum itaque cum harum obcaecati est illum explicabo beatae.</p>
 
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
-                  <img src="https://i.pinimg.com/736x/64/0c/73/640c7375066adda3f36ac147fca89f75.jpg"/>
+                  <img src="https://i.pinimg.com/736x/64/0c/73/640c7375066adda3f36ac147fca89f75.jpg" alt='cooperation'/>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sint aperiam esse minus dolor eligendi vel numquam sit incidunt soluta, cumque laborum itaque cum harum obcaecati est illum explicabo beatae.</p>
                 </Tab.Pane>
               </Tab.Content>
