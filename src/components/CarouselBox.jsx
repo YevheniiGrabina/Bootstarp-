@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import ImgDonut from 'Images/ImgDonut.jpg';
+import ImgGirl2 from 'Images/ImgGirl2.jpg';
 import ImgGirl from 'Images/ImgGirl.jpg';
-import ImgGirl2 from 'Images/ImgDonut.jpg';
-import ImgDonut from 'Images/ImgGirl.jpg';
 import ImgFlowers from 'Images/ImgFlowers.jpg';
 import ImgCakes from 'Images/ImgCakes.jpg';
 
@@ -12,7 +12,7 @@ export default class CarouselBox  extends Component {
       <Carousel>
         <Carousel.Item>
           <img
-            className='d-block w-100 h-70'
+            className='d-block w-80 h-50'
             src={ImgDonut}
             alt='Donut'
           />
@@ -25,7 +25,7 @@ export default class CarouselBox  extends Component {
           <img
             className='d-block w-100'
             src={ImgGirl}
-            alt='Girl'
+            alt='Girl1'
           />
           <Carousel.Caption>
             <h3>Donut images</h3>
@@ -36,7 +36,7 @@ export default class CarouselBox  extends Component {
           <img
             className='d-block w-100'
             src={ImgGirl2}
-            alt='Girl'
+            alt='Girl2'
           />
           <Carousel.Caption>
             <h3>Donut images</h3>
