@@ -4,7 +4,7 @@ import { Navbar, Container , Nav , FormControl , Form, Button } from "react-boot
 import logo from './logo.png';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Импорт рендера страниц.
-import Galery from 'Pages/Galery';
+import Home from 'Pages/Home';
 import About from 'Pages/About';
 import Blog from 'Pages/Blog';
 import Contacts from 'Pages/Contacts';
@@ -47,7 +47,7 @@ export default class Header extends Component {
                 </Navbar>
                 <Router>
                     <Routes>
-                          <Route path='/' element={<Galery/>}/>
+                          <Route path='/' element={<Home/>}/>
                         <Route path='/about' element={<About/>}/>
                         <Route path='/contacts' element={<Contacts/>}/>
                         <Route path='/blog' element={<Blog/>}/>
